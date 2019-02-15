@@ -1,0 +1,24 @@
+.hover-box-caption {
+  bottom: -20em;
+  transition: all .2s linear;
+  color: #fff;
+}
+
+.hover-box:hover .hover-box-caption,
+.hover-box:focus .hover-box-caption {
+  bottom: 0;
+}
+
+.hover-box-img {
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  background-color: var(--color-accent);
+  transform: scale(1.1);
+}
+
+.hover-box {
+  z-index: 10;
+}
