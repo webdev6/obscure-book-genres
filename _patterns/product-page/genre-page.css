@@ -1,0 +1,25 @@
+.img-flex {
+  max-width: 100%;
+  float: left;
+}
+
+.title {
+  font-family: var(--font-primary);
+}
+
+p {
+  font-family: var(--font-primary);
+}
+
+span {
+  font-family: var(--font-primary);
+}
+
+.btn-light {
+  transition: 1s ease;
+}
+
+.btn-light:hover {
+  background-color: var(--color-secondary);
+  border-color: none;
+}
