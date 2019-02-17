@@ -42,28 +42,22 @@
 }
 
 /*end*/
-/*cards*/
-.hover-box-caption {
-  bottom: -20em;
-  transition: all .2s linear;
+/*footer*/
+footer {
+  background-color: var(--color-secondary);
   color: #fff;
 }
 
-.hover-box:hover .hover-box-caption,
-.hover-box:focus .hover-box-caption {
-  bottom: 0;
+/*button*/
+.btn-light {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  border-radius: 10px;
 }
 
-.hover-box-img {
-  transition: all .2s linear;
+.btn-light:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
 }
-
-.hover-box:hover .hover-box-img,
-.hover-box:focus .hover-box-img {
-  background-color: var(--color-accent);
-  transform: scale(1.1);
-}
-
-.hover-box {
-  z-index: 10;
-}
+/*end*/
