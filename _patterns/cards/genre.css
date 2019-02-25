@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
@@ -27,7 +27,7 @@
 }
 
 .text {
-  color: white;
+  color: #fff;
   font-size: 20px;
   position: absolute;
   top: 50%;
