@@ -1,24 +1,38 @@
-.hover-box-caption {
-  bottom: -20em;
-  transition: all .2s linear;
-  color: #fff;
+.container {
+  position: relative;
+  width: 100%;
 }
 
-.hover-box:hover .hover-box-caption,
-.hover-box:focus .hover-box-caption {
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: var(--color-extra);
 }
 
-.hover-box-img {
-  transition: all .2s linear;
+.container:hover .overlay {
+  opacity: 1;
 }
 
-.hover-box:hover .hover-box-img,
-.hover-box:focus .hover-box-img {
-  background-color: var(--color-accent);
-  transform: scale(1.1);
-}
-
-.hover-box {
-  z-index: 10;
-}
+.text {
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
