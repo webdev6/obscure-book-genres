@@ -1,23 +1,17 @@
+---
+---
+
 <!DOCTYPE html>
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Favourites Page</title>
+  <title>Favourites</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/theme.css" rel="stylesheet">
-  <link href="css/favourite.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
 </head>
 <body>
 
-  <div class="header">
-    <a class="home">
-      <i class="icon i-96">
-      <img itemprop="image" class="push-0" src="images/logo.svg" alt="logo image">
-      </i>
-    </a>
+  {% pattern header/header %}
 
     <div class="header-right pad-t">
       <a class="active" href="#home">Home</a>
@@ -90,15 +84,7 @@
 
 </body>
 
-  <footer role="contentinfo" class="footer">
-    <section class="contact pad-t pad-b" id="contact" tabindex="0">
-      <div class="wrapper">
-          <div>
-            <small class="push-0 micro">© 2019 Obscure. All Rights Reserved</small>
-            </div>
-          </div>
-          </section>
-        </footer>
+  <script type="application/json" data-pattern="footer/footer"></script>
 
 
 </html>
