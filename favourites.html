@@ -2,16 +2,24 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>favourites page</title>
+  <title>Favourites Page</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link href="css/favourite.css" rel="stylesheet">
 </head>
 <body>
+
   <div class="header">
     <a class="home">
       <i class="icon i-96">
-      <img itemprop="image" class="push-0" src="/images/logo.svg" alt="logo image">
+      <img itemprop="image" class="push-0" src="images/logo.svg" alt="logo image">
       </i>
     </a>
-    <div class="header-right">
+
+    <div class="header-right pad-t">
       <a class="active" href="#home">Home</a>
       <a href="#contact">Genre</a>
       <a href="#about">Favourites</a>
@@ -19,26 +27,78 @@
     </div>
   </div>
 
-  <div class="grid text-center">
+
+<div class="center">
+  <div>
     <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-right">
+      <img class="fav-img" src="images/placeholder.jpg" alt="">
 
-  <div class="gutter-1-4 unit xs-1-6 s-1-6 m-1-6 l-1-6">
-    <a class="icons" href="">
-      <i class="icon i-64">
-        <img class="icon" src="/images/like.svg" alt="">
-      </i>
-    </a>
+      <p class="a">Genre:
+      <br>Title:
+      <br>By: Name of person </p>
 
-  <a class="btn btn-light" href="#">View more!</a>
+        <a class="icons" href="http://google.ca">
+          <i class="icon i-64">
+            <img class="icon" src="images/like.svg" alt="" >
+          </i>
+        </a>
+        <a class="btn btn-light" href="#">View more!</a>
+      </div>
+    </div>
   </div>
 
-  <footer role="contentinfo" class="footer push-2">
+
+  <div class="center">
+    <div> <!-- class="grid text-center"> !-->
+      <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-right">
+        <img class="fav-img" src="images/placeholder.jpg" alt="">
+
+        <p class="a">Genre:
+        <br>Title:
+        <br>By: Name of person </p>
+
+          <a class="icons" href="http://google.ca">
+            <i class="icon i-64">
+              <img class="icon" src="images/like.svg" alt="" >
+            </i>
+          </a>
+          <a class="btn btn-light" href="#">View more!</a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="center">
+      <div> <!-- class="grid text-center"> !-->
+        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 pad-right">
+          <img class="fav-img" src="images/placeholder.jpg" alt="">
+
+          <p class="a">Genre:
+          <br>Title:
+          <br>By: Name of person </p>
+
+            <a class="icons" href="http://google.ca">
+              <i class="icon i-64">
+                <img class="icon" src="images/like.svg" alt="" >
+              </i>
+            </a>
+            <a class="btn btn-light" href="#">View more!</a>
+          </div>
+        </div>
+      </div>
+
+
+</body>
+
+  <footer role="contentinfo" class="footer">
     <section class="contact pad-t pad-b" id="contact" tabindex="0">
       <div class="wrapper">
           <div>
-            <small class="text-centre push-0 micro">© 2019 Obscure. All Rights Reserved</small>
+            <small class="push-0 micro">© 2019 Obscure. All Rights Reserved</small>
             </div>
+          </div>
           </section>
         </footer>
-</body>
+
+
 </html>

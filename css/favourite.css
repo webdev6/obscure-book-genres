@@ -2,7 +2,6 @@
 .header {
   overflow: hidden;
   background-color: #f1f1f1;
-  padding: 20px 10px;
 }
 
 .header a {
@@ -14,16 +13,6 @@
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-}
-
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.header a:hover {
-  background-color: var(--color-extra);
-  color: #fff;
 }
 
 .header-right {
@@ -44,8 +33,11 @@
 /*end*/
 /*footer*/
 footer {
+  width: 100%;
   background-color: var(--color-secondary);
   color: #fff;
+  bottom: 0;
+
 }
 
 /*button*/
@@ -61,3 +53,22 @@ footer {
   color: #fff;
 }
 /*end*/
+
+.fav-img {
+  float: left;
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+  padding: 40px;
+}
+
+.header-right {
+  text-align: center;
+}
+
+.a{
+  line-height:170%;
+  padding-top: 60px;
+}
