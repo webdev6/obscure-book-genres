@@ -4,30 +4,12 @@
   <meta charset="utf-8">
   <title>Obscure Book Genres</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link rel="stylesheet" href="css/modules.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <link rel="stylesheet" href="css/type.css">
-  <link rel="stylesheet" href="css/theme.css">
-  <link rel="stylesheet" href="css/homepage.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  </script>
 </head>
 <body>
-  <div class="nav">
-    <div class="nav-header">
-      <div class="nav-title">
-        <a class="personal" href="">
-          <i class="icon i-96">
-            <img itemprop="image" class="push-0" src="/images/logo.svg" alt="logo image">
-          </i>
-        </a>
-      </div>
-    </div>
-    <div class="nav-btn">
-      <label for="nav-check">
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
-    </div>
+  {% pattern header/header %}
     <input type="checkbox" id="nav-check">
     <div class="nav-links">
       <a href="" target="_blank">Home</a>
@@ -88,13 +70,6 @@
     </div>
   </section>
 
-  <footer role="contentinfo" class="footer push-2">
-    <section class="contact pad-t pad-b" id="contact" tabindex="0">
-      <div class="wrapper">
-        <div>
-          <small class="text-centre push-0 micro">© 2019 Obscure. All Rights Reserved</small>
-        </div>
-      </section>
-    </footer>
+  {% pattern footer/footer %}
   </body>
 </html>
