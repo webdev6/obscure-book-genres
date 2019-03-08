@@ -1,69 +1,41 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- @catherine9 Sign out
- The password you provided is weak and can be easily guessed. To increase your security, please change your password as soon as possible.
-
-Read our documentation on safer password practices.
-
-0
-0 252 catherine9/hero-banner
-forked from acgd-webdev-1/hero-banner
- Code  Pull requests 0  Projects 0  Insights  Settings
-hero-banner/css/main.css
-@catherine9 catherine9 content fixed
-50ed453  on Nov 11, 2016
-48 lines (40 sloc)  645 Bytes
-
-html {
-  box-sizing: border-box;
-}
-
-*, *::before, *::after {
-  box-sizing: inherit;
-}
-
-.banner {
+.hero-image {
+  background-color: var(--color-accent);
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
-  overflow: hidden;
-  max-height: 500px;
 }
 
-.banner-content {
-  bottom: 1rem;
-  max-width: 50em;
-  left: 50%;
+.hero-text {
+  text-align: center;
   position: absolute;
-  transform: translateX(-50%);
-  width: 100%;
-  margin-bottom: -1.5rem;
+  top: -50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
 
-h2 {
-  font-family: var(--font-primary);
-  font-size: 4rem;
-  font-weight: bold;
-  background-color: rgba(0, 0, 0, .5);
+.hero-text button {
+  border: 5px;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  text-align: center;
+  cursor: pointer;
+  background-color: var(--color-primary);
   color: #fff;
-  display: inline;
 }
 
-.img-flex {
-  display: block;
-  width: 100%;
+.hero-text button:hover {
+  background-color: var(--color-extra);
+  color: white;
 }
 
-p {
-  font-style: italic;
-  font-size: 2rem;
-  font-family: var(--font-primary);
+.text-content {
+  color: var(--color-secondary);
 }
 
-body {
-  margin: 0;
+.heading {
+  color: var(--color-secondary);
 }
