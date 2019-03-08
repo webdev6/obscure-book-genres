@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .image {
@@ -19,7 +19,7 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: var(--color-extra);
 }
 
 .container:hover .overlay {
