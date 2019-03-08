@@ -1,6 +1,18 @@
+genre-pages
+.hover-box {
+  color: #fff;
+}
+
+.hover-box-caption {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 5));
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 9);
+  bottom: -6em;
+  transition: all .2s linear;
+
 .container {
   position: relative;
   width: 100%;
+master
 }
 
 .image {
@@ -8,6 +20,17 @@
   width: 100%;
   height: auto;
 }
+
+genre-pages
+.hover-box-img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img,
+.hover-box:focus .hover-box-img {
+  filter: grayscale(0);
+  transform: scale(1.1);
 
 .overlay {
   position: absolute;
@@ -24,6 +47,7 @@
 
 .container:hover .overlay {
   opacity: 1;
+master
 }
 
 .text {
