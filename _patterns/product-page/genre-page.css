@@ -28,3 +28,7 @@ span {
   border: 1px solid var(--color-secondary);
   background-color: #fff;
 }
+
+.box {
+  margin-left: 0.125;
+}
