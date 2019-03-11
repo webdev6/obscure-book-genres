@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+.icon {
+	float: left;
+	display: block;
+}
+
 body {
   margin: 0px;
   font-family: var(--font-primary);
@@ -59,6 +64,10 @@ input {
   font-size: 1.125rem;
   border-color: var(--color-secondary);
   border-radius: 12px;
+}
+
+.topnav .search-container {
+  float: right;
 }
 
 @media (max-width:600px) {
