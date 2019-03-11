@@ -3,7 +3,6 @@
 }
 
 .home-icon {
-	float: left;
 	display: inline-block;
   width: 100%;
 }
@@ -11,7 +10,7 @@
 hr {
   display: block;
   margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 1rem;
   margin-left: auto;
   margin-right: auto;
   border-style: inset;
