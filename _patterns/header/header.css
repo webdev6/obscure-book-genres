@@ -2,9 +2,20 @@
   box-sizing: border-box;
 }
 
-.icon {
+.home-icon {
 	float: left;
-	display: block;
+	display: inline-block;
+  width: 100%;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
 }
 
 body {
@@ -64,10 +75,6 @@ input {
   font-size: 1.125rem;
   border-color: var(--color-secondary);
   border-radius: 12px;
-}
-
-.topnav .search-container {
-  float: right;
 }
 
 @media (max-width:600px) {
