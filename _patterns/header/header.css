@@ -8,6 +8,9 @@ body {
   width: 100%;
   background-color: var(--color-accent);
   position: relative;
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
 }
 
 .home-icon{
@@ -16,16 +19,6 @@ body {
   position: absolute;
   top: 0px;
   left: 2px
-}
-
-header-fix-4
-.nav {
-
-.nav > .nav-header {
-master
-  display: inline-block;
-  font-size: 22px;
-  color: #fff;
 }
 
 .nav > .nav-btn {
@@ -85,7 +78,7 @@ label {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: #fff;
+    background-color: var(--color-secondary);
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
@@ -95,6 +88,7 @@ label {
   .nav > .nav-links > a {
     display: block;
     width: 100%;
+    color: #fff;
   }
   .nav > #nav-check:not(:checked) + .nav-links {
     height: 0px;
