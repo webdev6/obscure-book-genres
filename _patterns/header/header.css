@@ -18,7 +18,11 @@ body {
   left: 2px
 }
 
+header-fix-4
 .nav {
+
+.nav > .nav-header {
+master
   display: inline-block;
   font-size: 22px;
   color: #fff;
