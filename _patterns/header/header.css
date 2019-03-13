@@ -23,9 +23,16 @@ body {
   margin: 0;
 }
 
+image-header
 h1 {
   margin: 0;
   text-align: left;
+
+.nav > .nav-header {
+  display: inline-block;
+  font-size: 22px;
+  color: #fff;
+master
 }
 
 .nav {
