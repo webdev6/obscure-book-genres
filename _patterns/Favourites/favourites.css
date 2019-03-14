@@ -1,15 +1,14 @@
-.btn-light {
+.btn{
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
-.btn-light:hover {
+.btn:hover {
   background-color: var(--color-secondary);
   color: #fff;
 }
-/*end*/
 
 .fav-img {
   float: left;
@@ -25,7 +24,7 @@
   text-align: center;
 }
 
-.a{
+.a {
   line-height:170%;
   padding-top: 60px;
 }
