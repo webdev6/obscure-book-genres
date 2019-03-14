@@ -17,13 +17,13 @@
   right: 0;
   height: 100%;
   width: 100%;
+  opacity: 0;
   transition: .5s ease;
-  background-color: var(--color-primary);
+  background-color: var(--color-extra);
 }
 
 .container:hover .overlay {
   opacity: 1;
-  background-color: var(--color-extra);
 }
 
 .text {
