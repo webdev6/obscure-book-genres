@@ -1,0 +1,43 @@
+.btn-light {
+  background-color: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-light:hover {
+  background-color: var(--color-secondary);
+  color: #fff;
+}
+/*end*/
+
+.fav-img {
+  float: left;
+  width: 50%;
+}
+
+.center {
+  text-align: center;
+  padding: 40px;
+}
+
+.header-right {
+  text-align: center;
+}
+
+.a{
+  line-height:170%;
+  padding-top: 60px;
+}
+
+.title {
+  color: var(--color-secondary);
+}
+
+.icon {
+  float: right;
+  width: 50%;
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}

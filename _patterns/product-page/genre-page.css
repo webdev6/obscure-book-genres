@@ -23,3 +23,12 @@ span {
   background-color: var(--color-secondary);
   border-color: none;
 }
+
+.box {
+  border: 1px solid var(--color-secondary);
+  background-color: #fff;
+}
+
+.box {
+  margin-left: 0.125;
+}

@@ -27,7 +27,7 @@
 }
 
 .text {
-  color: #fff;
+  color: white;
   font-size: 20px;
   position: absolute;
   top: 50%;
@@ -36,3 +36,4 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+}

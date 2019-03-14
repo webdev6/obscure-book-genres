@@ -1,7 +1,9 @@
 ---
+
 ---
 
 <!DOCTYPE html>
+bookmark-page-branch
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
@@ -78,16 +80,22 @@
             </div>
           </div>
   </section>
+      
+<html lang="en-ca" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bookmarks</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
 
-  <section>
-    <div class="grid grid-middle">
-      <div class="unit xs-1 s-1 m-1-2 l-1-2">
-        <div class="chapter-title pad-t-2">
-          <p class="gutter-1-2"> Genre: Shenmo<p>
-            <h1 class="title not-bold gutter-1-2">Title: The Investiture of the Gods</h1>
-            <h2 class="subtitle not-bold giga gutter-1-2">By: Xu Zhonglin</h2>
-    </div>
+    {% pattern header/header %}
+master
 
+    {% pattern bookmarks/bookmark %}
+
+bookmark-page-branch
     <div class="grid grid-middle">
       <div class="middle unit xs-1 s-1 m-1 l-1">
         <article class="box">
@@ -143,6 +151,8 @@
     </div>
   </section>
 
-  {% pattern footer/footer %}
-</body>
+    {% pattern footer/footer %}
+ master
+
+  </body>
 </html>
