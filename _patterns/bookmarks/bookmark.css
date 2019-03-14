@@ -15,6 +15,14 @@ html {
   color: var(--color-secondary);
 }
 
+.bookmark-title {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
 .right-icons {
   float: right;
 }
