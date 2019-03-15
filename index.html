@@ -1,42 +1,29 @@
+---
+
+---
+
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en-ca" dir="ltr">
 <head>
   <meta charset="utf-8">
-  <title>Obscure Book Genre</title>
+  <title>Obscure Book Genres</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <link href="css/modules.css" rel="stylesheet">
-  <link href="css/grid.css" rel="stylesheet">
-  <link href="css/type.css" rel="stylesheet">
-  <link href="css/theme.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/main.css">
 </head>
+<body>
 
-    <h1>Web app</h1>
+<div class="pad-b-2 push-2">
+  {% pattern header/header %}
+</div>
 
-    <h2>Dev lead's temporary heading</h2>
+  <div class="pad-b-2 pab-t-2 push-2">
+    {% pattern banner/banner %}
+  </div>
 
-  </body>
+  <div class="pad-t-2 push-t-2">
+    {% pattern cards/genre %}
+  </div>
 
-  ---
-
-  ---
-
-  <!DOCTYPE html>
-  <html lang="en-ca" dir="ltr">
-    <head>
-      <meta charset="utf-8">
-      <title>Obscure Book Genres</title>
-      <meta name="viewport" content="width=device-width,initial-scale=1">
-      <link rel="stylesheet" href="/css/main.css">
-    </head>
-    <body>
-
-      {% pattern header/header %}
-
-      {% pattern banner/banner %}
-
-      {% pattern cards/genre %}
-
-      {% pattern footer/footer %}
-    </body>
-    </html>
+  {% pattern footer/footer %}
+</body>
+</html>
